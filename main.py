@@ -12,7 +12,7 @@ def sum_n(n):
 
 def print_n(s,n):
   if n==0:
-    return n
+    return 
   else:
     print(s) 
     print_n(s,n-1)
